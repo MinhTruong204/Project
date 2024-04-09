@@ -1,0 +1,241 @@
+div {
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #005c61;
+}
+
+        /* App Block */
+.app-block {
+    margin: 3%;
+    height: 94%;
+    width: 94%;
+}
+
+        /* App SideBar */
+
+.app_Sidebar {
+    background-color: var(--block_Color);
+    box-shadow: var(--shadow_Box);
+}
+
+.app_Sidebar_logo {
+    flex: 1;
+    
+}
+
+.app_Sidebar_Section {
+    flex: 3;
+
+}
+
+.app_Sidebar_logout {
+    flex: 1;
+
+}
+
+
+.section-item {
+    display: flex;
+    align-items: center;
+}
+
+
+.section-title{
+    padding-bottom: 5px;
+}
+
+.section-item-icon {
+    margin: 0 15px 0 20px;
+}
+
+
+
+
+
+
+        /* Content */
+
+
+
+
+/* Navbar */
+.app_Content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content_navbar {
+    flex: 1.5;
+}
+
+.content_info {
+    flex: 2;
+}
+
+.content_headingtasklist {
+    flex:1;
+}
+
+.content_tasklist {
+    flex: 5.5;
+}
+
+
+.content_navbar {
+    display: flex;
+}
+
+
+
+.navbar_input {
+    flex: 8;
+    margin: 5% 15% 5% 0;
+    border-radius: 20px;
+    box-shadow: var(--shadow_Box);
+    background-color: var(--block_Color);
+    padding-top: 2px;
+}
+
+
+.navbar_input-box {
+    display: block;
+    position: absolute;
+    transform: translateY(-30px);
+    height: 35px;
+    border: hidden;
+    opacity: 0.1;
+    margin-left: 30px;
+    width: 300px;
+    
+}
+.navbar_notify {
+    flex: 1;
+}
+
+.navbar_setting {
+    flex: 1;
+}
+
+.navbar_input-icon {
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+
+        /* Infomation */
+
+.info_title {
+    flex: 7;
+
+}
+
+.info_curtime {
+    flex : 3;
+}
+
+
+.info_title_text  {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.info_title_addtaskbtn  {
+    flex: 1;
+}
+
+
+.addtaskbtn-element {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 60%;
+    width: 40%;
+    border: 0;
+    border-radius: 20px;
+    background-image: var(--gradient_Color);
+    color: white;
+}
+
+
+.info_curtime {
+    background-color: var(--block_Color);
+    box-shadow: var(--shadow_Box);
+    border-radius: 30px;
+}
+
+.info_curtime-item {
+    flex: 1;
+    align-items: end;
+}
+.curtime_daymonye-item {
+    flex: 1;
+    text-align: center;
+}
+
+.curtime_weekday {
+    text-align: center;
+}
+
+
+
+
+
+/* Tasklist */
+.content_tasklist_weekday_item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.weekday_item {
+    flex: 1;
+    padding-top: 15%
+}
+
+
+.content_tasklist {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--block_Color);
+    padding: 30px;
+    box-shadow: var(--shadow_Box);
+    border-radius: 20px;
+}
+
+.content_tasklist_weekday {
+    flex: 3;
+    display: flex;
+}
+
+.content_move-arrow {
+    flex: 1;
+}
+
+.content_tasklist_schedule {
+    flex: 6;
+}
+
+.hr-block {
+    border-right: 1px black solid;
+}
+
+.tasklist_schedule-block {
+    list-style-type: none;
+}
+.tasklist_schedule-item {
+    flex: 1;
+    display: flex;
+}
+
+.tasklist_schedule-item-time {
+    flex: 1;
+}
+
+.tasklist_schedule-item-description {
+    flex: 6;
+    padding-left: 10%;
+}
