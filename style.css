@@ -229,13 +229,59 @@ body{
 .tasklist_schedule-item {
     flex: 1;
     display: flex;
+    align-items: center;
+
 }
 
 .tasklist_schedule-item-time {
     flex: 1;
+    text-align: center;
+    background-color: var(--black_Color);
+    color: var(--white_Color);
+    height: 70%;
+    border-radius: 10px;
 }
 
 .tasklist_schedule-item-description {
-    flex: 6;
+    flex: 5;
     padding-left: 10%;
+}
+
+
+.app_performance_profile {
+    flex: 1.3;
+    justify-content: end;
+}
+
+
+.app_performance_profile_avatar {
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.app_performance_calendar {
+    flex: 3.5 ;
+}
+
+.app_performance_headingpfm {
+    flex: 1 ;
+}
+
+.app_performance_mypfm {
+    flex: 4;
+}
+
+
+
+/* calender  */
+.calendar_daylist {
+    background-color: var(--block_Color);
+    box-shadow: var(--shadow_Box);
+    border-radius: 20px;
+}
+
+.calendar_dayslist-day {
+    list-style: none;
+    display: inline-block;
 }
