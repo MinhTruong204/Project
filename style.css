@@ -57,6 +57,8 @@ body{
     height: 12%;
     margin-bottom: 15px;
     width: 50%;
+    animation: active-section 0.5s  ;
+    cursor: pointer;
 }
 
 

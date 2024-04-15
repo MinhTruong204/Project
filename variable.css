@@ -20,3 +20,8 @@ input:focus{
 h1 {
     font-size: 10px;
 }
+
+@keyframes active-section {
+    0%{width: 0%;}
+    100%{width: 50%;}   
+}
