@@ -1,7 +1,7 @@
 let sectionElement = document.querySelectorAll(".section-item");
 let activeSectionElement ;
 
-sectionElement.forEach(function(item){
+sectionElement.forEach(function(item,index){
     item.addEventListener("click", function(){
         activeSectionElement = document.querySelector(".active-section");
         activeSectionElement.classList.remove("active-section");
@@ -10,4 +10,5 @@ sectionElement.forEach(function(item){
         item.classList.add("active-section");
     }
 );})
+
 
